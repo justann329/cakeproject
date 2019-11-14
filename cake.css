@@ -1,0 +1,28 @@
+body,
+html{
+  width: 100%;
+  height: 100%;
+  font-family: 'Pacifico', cursive;
+  background: url(img/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#mainNav {
+  background-color: rgba(229, 229, 226 , 0.05);
+}
+#mainNav .navbar-toggler {
+  font-size: 1.25em;
+  color: #5F7A6E;
+  border: 1px solid #5F7A6E; 
+}
+#mainNav .nav-link {
+    transition: none;
+    padding: 2rem 1.5rem;
+    color: #000;
+    font-size: 1.25em;
+  }
+  #mainNav .nav-link:hover {
+    color: rgba(222, 68, 96, 0.7);
+  }
